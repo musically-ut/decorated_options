@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/decorated_options
+   */site-packages/decorated_options
+
+[run]
+branch = True
+source =
+    decorated_options
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*

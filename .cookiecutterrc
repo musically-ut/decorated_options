@@ -1,0 +1,49 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc 
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary project-path
+#
+# See:
+#    https://pypi.python.org/pypi/cookiecutter
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=project-path/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+
+    appveyor:                  'no'
+    c_extension_cython:        'no'
+    c_extension_optional:      'no'
+    c_extension_support:       'no'
+    codacy:                    'no'
+    codeclimate:               'no'
+    codecov:                   'no'
+    command_line_interface:    'no'
+    command_line_interface_bin_name: 'decorated_options'
+    coveralls:                 'no'
+    distribution_name:         'decorated_options'
+    email:                     'mail@musicallyut.in'
+    full_name:                 'Utkarsh Upadhyay'
+    github_username:           'musically-ut'
+    landscape:                 'no'
+    package_name:              'decorated_options'
+    project_name:              'Decorated_Options'
+    project_short_description: 'Function decorator to make argument passing saner.'
+    release_date:              'today'
+    repo_name:                 'decorated_options'
+    requiresio:                'no'
+    scrutinizer:               'no'
+    sphinx_doctest:            'no'
+    sphinx_theme:              'sphinx-rtd-theme'
+    test_matrix_configurator:  'no'
+    test_matrix_separate_coverage: 'no'
+    test_runner:               'nose'
+    travis:                    'no'
+    version:                   '0.1.0'
+    website:                   'http://musicallyut.in'
+    year:                      'now'
