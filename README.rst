@@ -111,7 +111,7 @@ Installation
 
 ::
 
-    pip install
+    pip install git+https://github.com/musically-ut/decorated_options.git@master#egg=decorated_options
 
 Development
 ===========
