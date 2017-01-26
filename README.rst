@@ -50,9 +50,9 @@ then slowly configuration creep starts to happen: I keep adding more and more
 parameters to the functions which run the simulations and keep making my old
 code more and more fragile.
 
-I wrote `decorated_options` to decouple the arguments for different set of experiments.
+I wrote ``decorated_options`` to decouple the arguments for different set of experiments.
 
-In brief, `decorated_options` converts this:
+In brief,  ``decorated_options`` converts this:
 
 ::
 
@@ -86,14 +86,14 @@ to:
 
 
 
-* Benefits over `**kwargs` in receiving function:
+* Benefits over ``**kwargs`` in receiving function:
 
   1. Early reporting of errors at call-time.
   2. No need to unpack the values.
   3. Default values do not have to be hard-coded.
   4. Allows progressive improvement, no need to change old code which uses positional arguments.
 
-* Benefits over `**dict` while calling:
+* Benefits over ``**dict`` while calling:
 
   1. Easier updating/overriding of values
   2. Positional arguments also work
@@ -101,7 +101,7 @@ to:
 
 * Benefits over default values in receiving function:
 
-  1. `Options` objects can save defaults for multiple settings.
+  1. ``Options`` objects can save defaults for multiple settings.
   2. De-couples default values from the functions themselves.
 
 
