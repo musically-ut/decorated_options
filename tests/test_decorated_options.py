@@ -25,6 +25,8 @@ def test_options():
     assert 'b' in new_opts
     assert 'a' in new_opts.keys()
 
+# TODO: Add a test for immutability
+
 
 def test_optioned():
     def foo(a, b=1):
@@ -46,3 +48,5 @@ def test_optioned():
 
     assert bar(10, sim_opts=Options(b=10)) == (10, 10)
     assert bar(sim_opts=Options(a=20, b=20)) == (20, 20)
+
+    # TODO: Add functions which take **kwargs or **args arguments.
