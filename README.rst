@@ -54,7 +54,7 @@ I wrote ``decorated_options`` to decouple the arguments for different set of exp
 
 In brief,  ``decorated_options`` converts this:
 
-::
+.. code:: python
 
     def run(max_num_followers, num_segments, is_hawkes):
         # ...
@@ -68,7 +68,7 @@ In brief,  ``decorated_options`` converts this:
 
 to:
 
-::
+.. code:: python
 
     from decorated_options import Options, optioned
 
@@ -109,7 +109,7 @@ to:
 Installation
 ============
 
-::
+.. code:: bash
 
     pip install git+https://github.com/musically-ut/decorated_options.git@master#egg=decorated_options
 
