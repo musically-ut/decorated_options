@@ -7,13 +7,13 @@ Overview
 .. list-table::
     :stub-columns: 1
 
-    * - docs
-      - |docs|
     * - tests
-      - |
-        |
+      - |build|
     * - package
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
+      
+.. |build| image:: https://travis-ci.org/musically-ut/decorated_options.svg?branch=master
+    :target: https://travis-ci.org/musically-ut/decorated_options
 
 .. |docs| image:: https://readthedocs.org/projects/decorated_options/badge/?style=flat
     :target: https://readthedocs.org/projects/decorated_options
