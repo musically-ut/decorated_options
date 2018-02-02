@@ -10,7 +10,7 @@ Overview
     * - tests
       - |build|
     * - package
-      - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
+      - |version| |wheel| |supported-versions| |supported-implementations|
       
 .. |build| image:: https://travis-ci.org/musically-ut/decorated_options.svg?branch=master
     :target: https://travis-ci.org/musically-ut/decorated_options
@@ -21,10 +21,6 @@ Overview
 
 .. |version| image:: https://img.shields.io/pypi/v/decorated_options.svg?style=flat
     :alt: PyPI Package latest release
-    :target: https://pypi.python.org/pypi/decorated_options
-
-.. |downloads| image:: https://img.shields.io/pypi/dm/decorated_options.svg?style=flat
-    :alt: PyPI Package monthly downloads
     :target: https://pypi.python.org/pypi/decorated_options
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/decorated_options.svg?style=flat
