@@ -107,7 +107,7 @@ Installation
 
 .. code:: bash
 
-    pip install git+https://github.com/musically-ut/decorated_options.git@master#egg=decorated_options
+    pip install decorated_options
 
 Development
 ===========
